@@ -1,0 +1,17 @@
+#Header{
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 28px;
+    margin-inline: auto;
+    width: 100%;
+    max-width: 1440px;
+    border-bottom: 1px solid #F0EFFB;
+}
+
+@media (min-width: 1000px) {
+    #Header {
+        min-height: 96px;
+    }
+}
