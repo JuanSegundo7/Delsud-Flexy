@@ -10,6 +10,13 @@
     border-bottom: 1px solid #F0EFFB;
 }
 
+@media (max-height: 720px) {
+    #Header {
+        height: 60px;
+    }
+}
+
+
 @media (min-width: 1000px) {
     #Header {
         min-height: 96px;

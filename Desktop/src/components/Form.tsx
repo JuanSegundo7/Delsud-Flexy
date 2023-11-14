@@ -117,14 +117,14 @@ const Form = () => {
             ? "Error"
             : "Registrate"}
         </button>
-      </form>
 
-      <div>
-        <p className={styles.have_account}>
-          ¿Ya tenés una cuenta?
-          <span className={styles.sign_in}>Iniciá sesión</span>
-        </p>
-      </div>
+        <div>
+          <p className={styles.have_account}>
+            ¿Ya tenés una cuenta?
+            <span className={styles.sign_in}>Iniciá sesión</span>
+          </p>
+        </div>
+      </form>
     </article>
   );
 };
